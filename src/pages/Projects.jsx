@@ -64,7 +64,7 @@ const Projects = () => {
           My Project
         </h2>
         <div className="w-[85%] max-w-[1260px] flex flex-col gap-4 items-center justify-center ">
-          <h3 className="text-2xl text-transparent bg-clip-text
+          <h3 className="text-3xl text-transparent bg-clip-text
           bg-linear-to-r from-black/80 to-black/60">{activeProject.title}</h3>
           <p className="text-center lg:w-[70%] text-gray-300">{activeProject.description}</p>
           <img src={activeProject.desktopImageUrl} className="h-[60vh] object-contain hidden md:block rounded-2xl"/>
