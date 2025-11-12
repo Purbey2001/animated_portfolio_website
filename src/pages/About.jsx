@@ -51,7 +51,7 @@ const About = () => {
             transition-all duration-200'>
               <a href='#projects'>Projects</a>
             </button>
-            <button className='bg-linear-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63] 
+            <button className='bg-linear-to-r from-[#302b63] via-[#00bf8f] to-[#1cd8d2]
             text-white px-6 py-3 rounded-full font-medium shadow-lg hover:opacity-90 hover:scale-90 
             transition-all duration-200'>
               <a href='#contact'>Get In Touch</a>

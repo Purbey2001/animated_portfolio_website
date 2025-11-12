@@ -15,7 +15,7 @@ const Projects = () => {
       description: 'A responsive weather app that shows real-time weather for any city or your current location using the OpenWeatherMap API.',
       mobileImageUrl: weatherAppMobile,
       desktopImageUrl: weatherAppDesktop,
-      projectUrl: 'https://purbey2001.github.io/tic_tac_toe/',
+      projectUrl: 'https://purbey2001.github.io/weather_app/',
       githubUrl: 'https://github.com/Purbey2001',
       bgColor: "#0d4d3d80"
     },
@@ -69,18 +69,18 @@ const Projects = () => {
           <p className="text-center lg:w-[70%] text-gray-300">{activeProject.description}</p>
           <img src={activeProject.desktopImageUrl} className="h-[60vh] object-contain hidden md:block rounded-2xl"/>
           <img src={activeProject.mobileImageUrl} className="h-[50vh] object-contain md:hidden rounded-2xl"/>
-          <div className="flex gap-4">
+          <div className="flex gap-4 lg:gap-8">
             <a 
               href={activeProject.projectUrl}   
               target="_blank"
               rel="noreferrer"
-              className="px-4 py-2 bg-white text-black rounded hover:bg-linear-to-r from-pink-500 to-blue-500 hover:text-white transition-all duration-200"  
+              className="px-4 py-2 bg-white text-black rounded-full bg-linear-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63]  hover:text-white transition-all duration-200"  
             >View Project</a>
             <a 
               href={activeProject.githubUrl}   
               target="_blank"
               rel="noreferrer"
-              className="px-4 py-2 bg-white text-black rounded hover:bg-linear-to-r from-blue-500 to-pink-500 hover:text-white transition-all duration-200"  
+              className="px-4 py-2 bg-white text-black rounded-full bg-linear-to-r from-[#302b63] via-[#00bf8f] to-[#1cd8d2] hover:text-white transition-all duration-200"  
             >
               View Code</a>
           </div>
