@@ -1,6 +1,6 @@
 import React, { useState,useRef } from 'react'
 import ParticlesBackground from '../components/ParticlesBackground'
-import Astra from '../assets/astra.png'
+import Astra from '../assets/Astra.png'
 import {motion} from 'framer-motion'
 import emailjs from '@emailjs/browser';
 
