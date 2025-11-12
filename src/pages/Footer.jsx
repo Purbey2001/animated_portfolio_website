@@ -24,7 +24,7 @@ const Footer = () => {
           ))
         }
       </div>
-      <p>“The best error is the one you learn from.”</p>
+      <p className='text-center'>“The best error is the one you learn from.”</p>
     </footer>
   )
 }
