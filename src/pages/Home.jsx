@@ -56,7 +56,8 @@ const Home = () => {
               className='w-fit bg-linear-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63] text-white px-6 py-3 rounded-full font-medium shadow-lg hover:opacity-90 hover:scale-90 transition-all duration-200'>
                 View My Work
               </a>
-              <a href='/Abhishek_Kumar_Resume.pdf' download
+              <a href='/Abhishek_Kumar_Resume.pdf'
+              download
               className='w-fit bg-linear-to-r from-[#302b63] via-[#00bf8f] to-[#1cd8d2] text-white px-6 py-3 rounded-full font-medium shadow-lg hover:opacity-90 hover:scale-90 transition-all duration-200'>
                 Download Resume
               </a>

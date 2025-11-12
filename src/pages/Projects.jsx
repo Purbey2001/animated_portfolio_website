@@ -16,7 +16,7 @@ const Projects = () => {
       mobileImageUrl: weatherAppMobile,
       desktopImageUrl: weatherAppDesktop,
       projectUrl: 'https://purbey2001.github.io/weather_app/',
-      githubUrl: 'https://github.com/Purbey2001',
+      githubUrl: 'https://github.com/Purbey2001/weather_app',
       bgColor: "#0d4d3d80"
     },
     {
@@ -25,7 +25,7 @@ const Projects = () => {
       mobileImageUrl: passwordGeneratorMobile,
       desktopImageUrl:  passwordGeneratorDesktop,
       projectUrl: 'https://purbey2001.github.io/generate_password/',
-      githubUrl: 'https://github.com/Purbey2001',
+      githubUrl: 'https://github.com/Purbey2001/generate_password',
       bgColor:  "#0d4d3dbf"
     },
     {
@@ -34,7 +34,7 @@ const Projects = () => {
       mobileImageUrl: ticTacToeMobile,
       desktopImageUrl: ticTacToeDesktop,
       projectUrl: 'https://purbey2001.github.io/tic_tac_toe/',
-      githubUrl: 'https://github.com/Purbey2001',
+      githubUrl: 'https://github.com/Purbey2001/tic_tac_toe',
       bgColor: "#0d4d3d"
     }
   ]
