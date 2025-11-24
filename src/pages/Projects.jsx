@@ -59,14 +59,14 @@ const Projects = () => {
       backgroundColor: activeProject.bgColor,
       transition: 'all 0.5s ease-in-out'
     }}>
-      <div className="sticky top-0 h-screen flex flex-col items-center justify-center">
-        <h2 className="text-3xl font-semibold z-10 text-center mt-4 md:mt-8">
+      <div className="sticky top-0 h-screen flex flex-col items-center justify-center md:pt-10 ">
+        <h2 className="text-3xl font-semibold z-10 text-center ">
           My Project
         </h2>
-        <div className="w-[85%] max-w-[1260px] flex flex-col items-center gap-4 md:gap-8">
+        <div className="w-[85%] max-w-[1260px] flex flex-col items-center mt-2 gap-2">
           <h3 className="text-3xl text-transparent bg-clip-text
-          bg-linear-to-r from-black/80 to-black/60">{activeProject.title}</h3>
-          <p className="text-center lg:w-[70%] text-gray-300">{activeProject.description}</p>
+          bg-linear-to-r from-red-600 via-pink-600 to-blue-800">{activeProject.title}</h3>
+          <p className="text-center lg:w-[60%] text-gray-300">{activeProject.description}</p>
           <img src={activeProject.desktopImageUrl} className="h-[60vh] object-contain hidden md:block rounded-2xl"/>
           <img src={activeProject.mobileImageUrl} className="h-[50vh] object-contain md:hidden rounded-2xl"/>
           <div className="flex gap-4 lg:gap-8">
